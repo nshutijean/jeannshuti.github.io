@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: '7&3',
+  title: 'Jean Nshuti',
 }
 
 const about = {
@@ -9,7 +9,7 @@ const about = {
   name: 'Jean Nshuti',
   role: 'Machine Learning Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Currently, an MSIT student at CMU. A machine learning engineer with a keen interest in data and how it can be used for social good. Great experience in data exploration, pre-processing, and modelling. Capable of applying predictive modelling for decision making.',
   resume: 'https://drive.google.com/file/d/1Mc2YzPwHX9-mNx4TrA1GhKZF08ZyZogY/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jeannshuti/',
@@ -21,46 +21,73 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Early crop disease discovery',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A CNN model used to detect early signs of crop diseases based on images of the plants leaves to prevent further spread of the disease and protect farmers crops.',
+    stack: ['Pytorch', 'CNN', 'CV'],
+    sourceCode: 'https://github.com/nshutijean/11785-early-crop-disease-discovery-dcnn',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'A knowledge-based recommender system for African authored books (concept)',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Research on using a knowledge-based recommender system to recommend underrepresented books: A look on African authored books',
+    stack: ['RecSys', 'Knowledge-based'],
+    // sourceCode: 'https://github.com',
+    livePreview: 'https://drive.google.com/file/d/1zQ0Kn09-YULg858rMfIacnb8Y9vkIRml/view?usp=share_link',
   },
   {
-    name: 'Project 3',
+    name: 'AirQo Device failure detection.',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A binary classification model that identifies faulty sensors using AirQo’s air quality sensing devices.',
+    stack: ['Python', 'classification', 'Logistic Regression', 'XGBoost', 'CatBoost', 'LightGBM'],
+    sourceCode: 'https://github.com/nshutijean/faulty-air-quality-challenge-zindi-hackathon',
+    // livePreview: 'https://github.com',
   },
 ]
+
+// const blogs = [
+//   // blogs can be added an removed
+//   // if there are no blogs, Blogs section won't show up
+//   {
+//     url: 'https://dev.to/rajshekhar26/creating-a-portfolio-website-using-react-1h0',
+//     title: 'Creating a Portfolio Website using React',
+//     description:
+//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.',
+//   },
+//   {
+//     url: 'https://dev.to/rajshekhar26/creating-a-portfolio-website-using-react-1h0',
+//     title: 'Creating a Portfolio Website using React',
+//     description:
+//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.',
+//   },
+// ]
+
+
+// const experience = [
+//   // experience can be added an removed
+//   // if there are no experience, Experience section won't show up
+//   {
+//     role: 'Software Engineer',
+//     company: 'Google',
+//     companylogo: 'https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png',
+//     date: 'June 2018 – Present',
+//     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+//     descBullets: [
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+//     ],
+//   },
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Python',
+  'Pytorch',
+  'Scikit-learn',
+  'Pandas',
+  'NumPy',
+
 ]
 
 const contact = {
