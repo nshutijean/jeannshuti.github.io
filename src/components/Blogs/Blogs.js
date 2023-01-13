@@ -11,8 +11,8 @@ const Blogs = () => {
       <h2 className='section__title'>Blogs</h2>
 
       <div className='blogs__grid'>
-        {blogs.map((project) => (
-          <BlogContainer key={uniqid()} project={project} />
+        {blogs.map((blog) => (
+          <BlogContainer key={uniqid()} blog={blog} />
         ))}
       </div>
     </section>

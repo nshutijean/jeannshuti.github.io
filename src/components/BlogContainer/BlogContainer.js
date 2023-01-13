@@ -1,11 +1,17 @@
-import uniqid from 'uniqid'
+// import uniqid from 'uniqid'
 // import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './BlogContainer.css'
 
 const BlogContainer = ({ blog }) => (
   <div className='blog'>
-    <h3>{blog.title}</h3>
+    <img
+        src={blog.image}
+        alt={blog.title}
+        className='blog__image'
+    />
+
+    <h3 className='blog__title'>{blog.title}</h3>
 
     <p className='blog__description'>{blog.description}</p>
     {/* {blog.stack && (

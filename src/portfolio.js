@@ -50,14 +50,14 @@ const blogs = [
   // blogs can be added an removed
   // if there are no blogs, Blogs section won't show up
   {
-    // image: 'https://miro.medium.com/max/1400/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg',
+    image: 'https://miro.medium.com/max/1400/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg',
     url: 'https://dev.to/rajshekhar26/creating-a-portfolio-website-using-react-1h0',
     title: 'Creating a Portfolio Website using React',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.',
   },
   {
-    // image: 'https://miro.medium.com/max/1400/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg',
+    image: 'https://miro.medium.com/max/1400/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg',
     url: 'https://dev.to/rajshekhar26/creating-a-portfolio-website-using-react-1h0',
     title: 'Creating a Portfolio Website using React',
     description:
