@@ -15,7 +15,20 @@ const Blogs = () => {
           <BlogContainer key={uniqid()} blog={blog} />
         ))}
       </div>
+
+      <div className='blogs__cta'>
+        <a
+            href='https://dev.to/alexandercastillo'
+            target='_blank'
+            rel='noreferrer'
+            aria-label='live preview'
+            className='link link--icon'
+        >
+            More Blogs
+        </a>
+        </div>
     </section>
+    
   )
 }
 

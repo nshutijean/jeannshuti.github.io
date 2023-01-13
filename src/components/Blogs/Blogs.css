@@ -5,4 +5,11 @@
     grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
     grid-gap: 2em;
   }
+  .blogs__cta {
+    margin: 2em auto;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+    /* text-decoration: underline; */
+  }
   

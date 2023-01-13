@@ -15,6 +15,18 @@ const Projects = () => {
           <ProjectContainer key={uniqid()} project={project} />
         ))}
       </div>
+
+      <div className='blogs__cta'>
+        <a
+          href='https://dev.to/alexandercastillo'
+          target='_blank'
+          rel='noreferrer'
+          aria-label='live preview'
+          className='link link--icon'
+        >
+          More Projects
+        </a>
+      </div>
     </section>
   )
 }
